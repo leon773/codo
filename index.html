@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TPO cc G4</title>
-<!-- RELACIONAR HTML CON SU ARCHIVO DE ESTILO -->
+
+    <!-- RELACIONAR HTML CON SU ARCHIVO DE ESTILO -->
+    <link rel="stylesheet" href="css/index.css">
+
+
+
 <!-- Links del sitio  fonts.googleapis.com-->
  <!-- Encabezado
     COMENTAR: CONTROL+K+C    DESCOMENTAR: CONTROL+K+U--> 
@@ -14,16 +19,18 @@
 
 
     <header><!--  Encabezado con logo y menú de navegación -->
-        <!-- <div class="header-linea"> -->
-        <!-- <img class="logo" src="img/codoAcodo.png" alt=""> -->
-        <!-- </div> -->
+
+        <div class="header-linea">
+        <img class="logo" src="img/icon/logo1.jpg" alt="logo cocineros">
+        </div>
+
         <!-- Menú de navegación -->
-        <nav>
+        <nav class="header-linea">
             <a class="menu" href="index.html">Inicio</a>
             <a class="menu" href="templates/Receta.html">Receta del mes</a>
-            <a class="menu" href="templates/galeriaProductos.html">Galeria</a>
+            <a class="menu" href="./templates/galeria.html">Galeria</a>
             <a class="menu" href="templates/tablaTopProductos.html">Top 5 Productos</a>
-            <a class="menu" href="templates/formulario1.html">Pedidos</a>
+            <a class="menu" href="templates/formulario1.html">Pedi tu recetario 2023</a>
             <a class="menu" href="templates/formulario2.html">Contacto</a>
         </nav>
 
@@ -34,21 +41,29 @@
 
     <main><!-- Contenido -->
 
-        <section>
+        <section class="S1">
             <!-- Bloque 1 -->
-            <div>
-                <h1>Titulo web</h1>   
+            <div class="linea-s1">
+                <h1>Recetas para todos</h1>   
             </div>
 
             <!-- Bloque 2  -->
-            <div>
-                <img src="./img/fondos y membretes/slider10.jpg" alt="foto comida">
+            <div class="linea-s1">
+                
             </div>
 
         </section>
 
-        <section>
-            <p>Texto e imagenes de portada</p>
+        <section id="S2">
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Rem fugiat molestias ex quisquam voluptas non error eos aliquid  
+                magnam vel officia corporis quod ab exercitationem. Cum
+                Porro, vero harum nulla dolore eveniet delectus dolorum, 
+                sse exercitationem atque provident expedita. Lorem ipsum, 
+                dolor sit amet consectetur adipisicing elit. Perspiciatis sit delectus asperiores est accusamus. 
+                Minima, assumenda autem! Quis dolorum quibusdam nostrum consectetur laudantium, 
+                qui hic minima iste. Architecto, exercitationem dolores?</p>
+
         </section>
 
 
@@ -56,8 +71,12 @@
 
 
     <footer><!-- Pie de página -->
-
+        <h3 class="texto-pie">Curso Full Stack Python</h3>
+        <!-- ICONO DE FLATICON https://fontawesome.com/-->
+       <i class="fa-brands fa-square-facebook" style="font-size: 5vw;"></i>  
+       <i class="fa-brands fa-twitter" style="font-size: 5vw;"></i>
     </footer>
-
+    <!-- TRAER ICONOS DE  fontawesome-->
+    <script src="https://kit.fontawesome.com/b75777cf68.js" crossorigin="anonymous"></script>    
 </body>
 </html>
