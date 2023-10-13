@@ -1,57 +1,29 @@
-/* -----------------LETRA---- */
-@font-face {
-    font-family:"Itim";
-    src: url('../fonts/Itim/Itim-Regular.ttf');
-}
 
 
 /* Selector universal */
 *{
     margin: 0%; /*Elimina todo margen que trae por defecto*/
     padding: 0%; /*Elimina todo relleno que trae por defecto*/
-    font-family: "Itim";
-}
-
-
-
-/* Selector por etiqueta
-aplicar estilo al título, agregar: color y tamaño */
-h1{
-    color:rgba(39, 99, 245, 0.8);/* Color compuesto por tres canales: rojo, verde, azul yel canal alfa
-    que es la intensidad de la luz*/
-    font-size: 3vw;  /*Tamaño de texto*/
-    font-family: "Roboto"; /*fuente externa de Google fonts*/
-    padding-top: 30vh;
     
 }
+
 
 /* Eliminar comportamiento en bloque de nav y la div */
 .header-linea{
     display: inline-block; /*Situa en linea el div y el nav*/
     padding-right: 22vw; /*Separación a la derecha entre el logo y el menu*/
-    padding-top: 0.1vh; /*Separación superior para el menu y logo*/
-    
-}
-
-/* Estilo para el logo */
-.logo{
-    width: 6vw;  /*Ancho*/
-    height: auto;/*Altura autoajustada, mantiene proporciones*/  
-    padding-top: 5vh;
-    border-radius: 40%;
-       
 }
 
 /* Estilos en el encabezado header:*/
 
 header{
 
-    height: 24vh; /*Altura*/
+    height: 12vw; /*Altura*/
     font-size: 1vw; /*Tamaño de texto*/
-    text-align: center;  /*Alinear texto*/
-    position: fixed; /*POSICIÓN FIJA DEL ENCABEZADO*/
+    text-align: right;  /*Alinear texto*/
+    position: top; /*POSICIÓN FIJA DEL ENCABEZADO*/
     width: 100%; /*ANCHO TOTAL DEL ENCABEZADO*/
-    background: linear-gradient(rgba(244, 246, 247, 0.8), rgba(37, 8, 139, 0.5));
+    background: linear-gradient(rgba(244, 246, 247, 0.9), rgba(37, 8, 139, 0.8));
    
 }
 
@@ -63,26 +35,41 @@ agregar separación entre hipervínculos. */
     text-decoration: none; /*Elimina subrayado*/
     color:brown;  /*Color texto*/
     padding-right: 2vw; /*Separación entre hipervinculos*/
+   
  
 }
 
-/* s2
-Fondo de la sección dos, agregar la id s2 a la sección,
-aplicar estilo: margen, tamaño de fuente, 
-color de fondo, borde radios.
-color:  rgba(83,175,236,0.8) */
-#s2{
-    background-color: rgba(83,175,236,0.8);/*Color dondo en la sección*/
-    font-size: 1.5vw;/*Tamaño de texto*/
-    margin: 5vw 5vh 5vw 5vh; /*separación del borde de la ventana
-    en el sentido de la agujas del reloj*/
-    
+
+/* Estilo para el logo */
+.logo{
+    width: 6vw;  /*Ancho*/
+    height: auto;/*Altura autoajustada, mantiene proporciones*/  
+    padding-top: 2vw;
+    border-radius: 40%;
+
+       
 }
 
-.parrafo{
-    padding: 2vw; /*Agrega relleno alrededor del párrafo*/
+
+.S2{
    
+    background-color: rgba(225, 236, 243, 0.8);/*Color dondo en la sección*/
+    margin: 2vw 20vw;
+    font-size: 2vw;/*Tamaño de texto*/
+    border-radius:20% 20% 20% 20%;
 }
+
+.parrafo1{
+    padding: 7vw 7vw 2vw 7vw;
+}
+
+.clip2{
+    
+    padding: 4vw 20vw;
+    background-color: black;
+    border-radius: 50vw 50vw 50vw 50vw;
+}
+
 
 /* Pie de página: color de fondo, altura, tamaño de fuente,
 color de texto alineación de texto.
@@ -100,14 +87,34 @@ footer{
 }
 
 
-.s1{
-   padding-top: 10vh;/*RELLENO EN LA PARTE SUPERIOR PARA QUE NO SE SUPERPONGA 
-   CON EL ENCABEZADO*/
+
+/* Selector por etiqueta
+aplicar estilo al título, agregar: color y tamaño */
+h1{
+    color:rgba(39, 99, 245, 0.8);/* Color compuesto por tres canales: rojo, verde, azul yel canal alfa
+    que es la intensidad de la luz*/
+    font-size: 3vw;  /*Tamaño de texto*/
+    padding-top: 1vw;
+    
+  
+    
 }
+
+
+
+
 
 .linea-s1{
     display: inline-block;/*ELIMINA EL COMPORTAMIENTO EN BLOQUE DE LOS DIV */
-    padding-top: 10vh;
-    padding-left: 5vw; /*SEPARA LA IMG DEL PERRO Y EL TITULO DE LA IZQUIERDA*/
-    
+    padding-top: 5vh;
+       
+}
+
+#t1{
+    padding-left: 25vw;
+
+}
+
+#t2{
+    padding-left: 39vw;
 }
